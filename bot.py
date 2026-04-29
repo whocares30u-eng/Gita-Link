@@ -9,7 +9,7 @@ from plugins import web_server
 import pyrogram.utils
 from aiohttp import web
 
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.MIN_CHANNEL_ID = -1003174665362
 
 name = """
 Links Sharing Started
@@ -19,11 +19,11 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             name="Bot",
-            api_hash=API_HASH,
-            api_id=APP_ID,
+            api_hash=0dfd9a9766084a82496fc310a3d90032,
+            api_id=35842464,
             plugins={"root": "plugins"},
-            workers=TG_BOT_WORKERS,
-            bot_token=TG_BOT_TOKEN,
+            workers=7225417332,
+            bot_token=8689235219:AAH8ygpbTkefvqoTMrmhqV-bE8MUI7w8bHI,
         )
         self.LOGGER = LOGGER
 
@@ -35,7 +35,7 @@ class Bot(Client):
         # Notify owner of bot restart
         try:
             await self.send_message(
-                chat_id=OWNER_ID,
+                chat_id=7225417332,
                 text="<b><blockquote>🤖 Bot Restarted ♻️</blockquote></b>",
                 parse_mode=ParseMode.HTML
             )
