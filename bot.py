@@ -19,11 +19,11 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             name="Bot",
-            api_hash=0dfd9a9766084a82496fc310a3d90032,
-            api_id=35842464,
+            api_hash= 0dfd9a9766084a82496fc310a3d90032,
+            api_id= 35842464,
             plugins={"root": "plugins"},
-            workers=7225417332,
-            bot_token=8689235219:AAH8ygpbTkefvqoTMrmhqV-bE8MUI7w8bHI,
+            workers= 7225417332,
+            bot_token= 8689235219:AAH8ygpbTkefvqoTMrmhqV-bE8MUI7w8bHI,
         )
         self.LOGGER = LOGGER
 
@@ -35,7 +35,7 @@ class Bot(Client):
         # Notify owner of bot restart
         try:
             await self.send_message(
-                chat_id=7225417332,
+                chat_id= 7225417332,
                 text="<b><blockquote>🤖 Bot Restarted ♻️</blockquote></b>",
                 parse_mode=ParseMode.HTML
             )
