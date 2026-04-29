@@ -1,4 +1,4 @@
-kurigram==2.3.59
+kurigram
 TgCrypto 
 pyromod
 python-dotenv
