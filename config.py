@@ -27,8 +27,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "40"))
 #--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
 
 # Start pic
-START_PIC = "https://telegra.ph/file/f3d3aff9ec422158feb05-d2180e3665e0ac4d32.jpg"
-START_IMG = "https://telegra.ph/file/f3d3aff9ec422158feb05-d2180e3665e0ac4d32.jpg"
+START_PIC = "https://api.aniwallpaper.workers.dev/random?type=girl"
+START_IMG = "https://graph.org/file/5303692652d91d52180c2.jpg"
 # Messages
 START_MSG = os.environ.get("START_MESSAGE", "<b>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ʟɪɴᴋs sʜᴀʀɪɴɢ ʙᴏᴛ. ᴡɪᴛʜ ᴛʜɪs ʙᴏᴛ, ʏᴏᴜ ᴄᴀɴ sʜᴀʀᴇ ʟɪɴᴋs ᴀɴᴅ ᴋᴇᴇᴘ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟs sᴀғᴇ ғʀᴏᴍ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs.\n\n<blockquote>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/MoviewalaX'>ΔRMΔΠ</a></blockquote></b>")
 HELP = os.environ.get("HELP_MESSAGE", "<b><blockquote expandable>» Creator: <a href=https://t.me/II_momo_II>ΔRMΔΠ</a>\n» Our Community: <a href=https://t.me/MovieWalaX_network>MoviewalaX Network</a>\n» Anime Channel: <a href=https://t.me/+FEsp8-x08JowOTA1>Aɴɪᴍᴇ Wᴀʟᴀ</a>\n» Ongoing Anime: <a href=https://t.me/+FEsp8-x08JowOTA1>Ongoing Aɴɪᴍᴇ Wᴀʟᴀ</a>\n» Developer: <a href=https://www.instagram.com/_ar.mxn/profilecard/?igsh=enY0Ymg2a2c1aDZm>ΔRMΔΠ</a></b>")
